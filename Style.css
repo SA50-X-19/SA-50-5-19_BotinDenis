@@ -1,0 +1,175 @@
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: white;
+    color: white;
+ } 
+  
+  #two {
+    position: relative;
+    top: 150px;
+    left: 20px;
+    background: blueviolet;
+  }
+
+  #three {
+    position: relative;
+    top: 320px;
+    left: 30px;
+    background: green;
+    
+  }
+
+  .boxone {
+      width: 100%;
+      height: 800px;
+  }
+
+  .boxtwo {
+    width: 100%;
+    height: 800px;
+}
+
+.boxthree {
+    width: 100%;
+    height: 800px;
+}
+
+.boxfour {
+    width: 100%;
+    height: 800px;
+}
+
+.boxfive {
+    width: 100%;
+    height: 800px;
+}
+
+  #one {
+      position: relative;
+      top: 0px;
+      left: 15px;
+      background: red
+  }
+
+
+  #two {
+      background: white;
+      border: 3px solid blueviolet;
+      margin: 10px;
+  }
+
+  #three {
+    background: white;
+    border: 3px solid green;
+    margin: 10px;
+ }
+
+ #one {
+    background: white;
+    border: 3px solid red;
+    margin: 10px;
+ }
+
+ #four {
+    position: relative;
+    top: 400px;
+    left: 15px;
+    background: red;
+ }
+
+ #five {
+     position: relative;
+     top: 470px;
+     left: -15px;
+     background: blueviolet;
+ }
+
+ #six {
+    position: relative;
+    top: 540px;
+    left: -50px;
+    background: green;
+}
+
+ #seven {
+    position: relative;
+    top: 350px;
+    left: 15px;
+    background: red;   
+ }
+
+ #eight {
+ position: relative;
+ top: 430px;
+ left: -120px;
+ background: blueviolet;
+ }
+
+ #nine {
+    position: relative;
+    top: 500px;
+    left: 50px;
+    background: green;
+  }
+
+
+  #ten {
+    position: relative;
+    top: 100px;
+    left: 50px;
+    width: 600px;
+    height: 600px;
+    background: rgb(63, 255, 150);
+  }
+
+  #elv {
+    position: relative;
+    top: 50px;
+    left: -100px;
+    background: white;
+  }
+
+  #twel {
+    position: relative;
+    top: -350px;
+    left: -600px;
+    background: white;
+  }
+
+  #thirt {
+    position: relative;
+    background: greenyellow;
+    width: 800px;
+    top: 80px;
+    height: 60px;
+  }
+
+  .positioned {
+     position: relative;
+     left: 300px; 
+     font-size: 30px;
+     color: white;
+  }
+
+  .outer {
+    width: 600px;
+    height: 300px;
+    overflow: scroll;
+    padding-left: 150px;
+    font-size: 20px;
+    padding-top: 50px;
+    color: black;
+  }
+
+ #onn {
+    position: relative;
+    width: 800px;
+    height: 900px;
+    top: -900px;
+    left: -50px;
+    background: rgba(255, 255, 255, 0);
+    border: 3px solid greenyellow
+    
+ }
