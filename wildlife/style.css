@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family:'Helvetica Neue','Segoe UI',sans-serif, Roboto,'Open Sans';
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    width: calc(100% - 2 * 8px);
+    height: 80px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: flex-start;
+    background-image: url(Images/Backg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+
+.logo {
+    display: flex;
+    margin-left: 110px;
+    color: white;
+}
+
+main {
+    padding: 130px;
+}
+
+h1 {
+    display: flex;
+    margin-left: 13px;
+    font-weight: 400;
+    font-size: 38px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    margin-right: 100px;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.Link {
+    margin-right: 50px;
+    font-weight: 300;
+    font-size: 30px;
+    text-decoration: none;
+    background: none;
+    color: white;
+}
+
+.Image {
+    margin-top: 10px;
+    margin-right: 70px;
+    width: 30%;
+    height: 30%;
+}
+
+.Button {
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    top: 24px;
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+    background: none;
+    box-sizing: border-box;
+    color: white;
+}
+
+.Link:hover {
+    opacity: 0.7;
+}
+
+.Image:hover {
+    opacity: 0.7;
+
+}
+
+.Button:hover {
+    background: #CD6326;
+}
+
+
+.survival {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 3px;
+    color: #CD6326;
+}
+
+.surText {
+    margin-bottom: 50px;
+    width: 274px;
+    height: 100px;
+    color: white;
+}
+
+.surButton {
+    border-radius: 10px;
+    width: 160px;
+    height: 60px;
+    border: none;
+    background: #CD6326;
+}
+
+.surButton > a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.surButton:hover {
+    background: #E39128;
+}
+
+.surButton:active {
+    background: #8F5613;
+}
